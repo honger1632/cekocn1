@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- utf-8 works for most cases -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Use the latest (edge) version of IE rendering engine -->
+<title>EmailTemplate-Fluid</title>
+<!-- The title tag shows in email notifications, like Android 4.4. -->
+
+<!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+<!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+<!-- CSS Reset -->
+<style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What it does: Forces Outlook.com to display emails full width. */
+.ExternalClass {
+	width: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+    font-size: 24px;
+    color: #FFE500;
+    text-align: center;
+    font-style: inherit;
+    font-weight: 900;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+<!-- Progressive Enhancements -->
+<style type="text/css">
+/* What it does: Hover styles for buttons */
+.button-td, .button-a {
+	transition: all 100ms ease-in;
+}
+.button-td:hover, .button-a:hover {
+	background: #c000ff !important;
+	border-color: #C000FF !important;
+}
+</style>
+<link href="css/1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #FFED00;
+}
+</style>
+</head>
+<body background="img/bg2.png" style="background-repeat:no-repeat background-attachment:fixed;background-size:100% ; ">
+	<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tbody><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="button-a">
+  <tbody>
+    <tr>
+      <th height="60" bgcolor="#FF0004" style="font-size: 24px" scope="col"><strong>--本页非主服务器所发射请注意页面安全--</strong></th>
+    </tr>
+  </tbody>
+</table>
+
+
+ 
+  </tbody>
+</table>
+
+     <center style="width: 100%;">
+        
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+       <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;"> (Optional) This text will appear in the inbox preview, but not the email body. </div>
+        <!-- Visually Hidden Preheader Text : END -->
+        
+        <div style="max-width: 700px;"> 
+          <!--[if (gte mso 9)|(IE)]>
+            <table cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+            <tr>
+            <td>
+            <![endif]--> 
+          
+          <!-- Email Header : BEGIN -->
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
+            <tr>
+              <td style="padding: 20px 0; text-align: center"><img src="img/b1.png" width="400" height="103" alt="alt_text" border="0"></td>
+            </tr>
+          </table>
+          <!-- Email Header : END --> 
+          
+          <!-- Email Body : BEGIN -->
+          <table  cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="100%" style="max-width: 600px;">
+            
+            <!-- Hero Image, Flush : BEGIN -->
+            <tr>
+              <td class="full-width-image" align="center" >&nbsp;</td>
+            </tr>
+            <!-- Hero Image, Flush : END --> 
+            
+            <!-- 1 Column Text : BEGIN -->
+            <tr>
+              <td><table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF" style="padding: 40px; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;"> <p> <span style="font-family: sans-serif"><strong style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px;"></strong></span><strong style="font-size: 36px"> チェコ･カネィン&nbsp;</strong></p>
+                      <p><span style="font-size: 36px;"><span style="font-size: 18px"><b>2024年6月11日Cekocn!的Live2D立绘正式公开!</b>
+						  </span></span>
+			          </p>
+				  <span style="font-size: 14px"><b>自2022年计划开始，经历了失败，经历了意外，一年又一年地错过4月计划，如今，新公司的成立给了我们诸多的机会，低折便是成功，2023年4月21日，重启4月计划，名为26计划，预计完成期在2026年4月前.<br>
+				  </b>
+				  
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
+                      <tr>
+                          <td style="border-radius: 3px; background: #ff89ed; text-align:center;" class="button-td"><a href="http://www.google.com" style="background: #ff89ed; border: 15px solid #ff89ed; padding: 0 60px;color: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a"> 
+                            <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->bilibili<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
+				 	  </tr>
+				      </table>
+                      
+                      <p>
+                        
+                        <!-- Button : END --> 
+                        <br>                      
+                        <span bgcolor="#766161" class="full-width-image"><img src="img/b1.jpg" alt="alt_text" width="421" height="670" border="0"></span></p>
+                      <p style="color: #939393; font-size: 12px; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;">HonGER ©2024</p></td>
+                  </tr>
+              </table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr> </tr>
+                </table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr> </tr>
+                </table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr> </tr>
+                </table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr> </tr>
+                </table></td>
+            </tr>
+            <!-- 1 Column Text : BEGIN --> 
+            
+            <!-- Two Even Columns : BEGIN -->
+            <tr> </tr>
+            <!-- Two Even Columns : END -->
+            
+          </table>
+          <p><!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+          </p>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+  <tr>
+     </table>
+          <!-- Email Footer : END --> 
+          
+          <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--> 
+        </div>
+      </center></th>
+</tr>
+</table>
+</body>
+</html>
